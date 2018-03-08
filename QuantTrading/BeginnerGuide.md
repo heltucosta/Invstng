@@ -77,7 +77,7 @@
 * On the other side, retail traders only have to comply to their own risk management policies, adjusting them over time and experience. Alongside that, it could use multiple strategies with multiple risk levels, optimizing profits.
 * This can often lead to retil investor becoming 'sloppy' with their risk management, which could result in substantial losses.
 ### 5.3 Investor Relations  
-#### 5.3.1 Compensation Structure
+#### 5.3.1 Compensation Structure  
 * Retail traders are only worried about absolute returns, thus being able to support more volatile equity returns.
 #### 5.3.2 Regulations/reporting
 * the only regulation retail traders have to worry about is basicaly tax returns, meanwhile big investment companies have to create monthly reports, reports for regulatory agencies and clientes, etc.
