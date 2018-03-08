@@ -168,53 +168,53 @@
 * **Long Trade/Position**: tipo de negociação comum, quando se espera obter lucros com o crescimento do mercado/ação. Perdas provenientes desse tipo de negociação são limitadas, uma vez que o mercado nao cai abaixo de 0.
 * **Short Trade/Position**: tipo de negociação agressiva, quando se espera obter lucro com a queda do mercado/ação. Perdas provenientes deste tipo de negociação são ilimitadas, ja que ações podem valorizar indefinidamente.
 
-### 1. Ordem de mercado
-	* Tipo de ordem mais básico.
-	* Instrui o corretor a comprar/vender a ação no melhor preço disponível.
-	* Geralmente, este tipo de ordem é executada imediatamente.
-	* A vantagem de realizar este tipo de ordem, é de que ela será preechida com certeza.
-	* A desvantagem é que como sempre os melhores preços serão utilizados pra preencher o pedido, pode acontecer de o slippage gerar prejuízos no preenchimento de uma ordem, selecionando preços muito diferentes do exigido na ordem.
-	* Esse tipo de ordem se torna consideravelmente mais vulnerável em mercados de baixa liquidez. Isso pode ser tanto por conta de alta volatilidade quanto como baixa profundidade do mercado.
-### 2. Ordens limitadas
-	* Tipo de ordem que só realiza a negociação caso o preço esteja no limite desejado ou melhor.
-	* Ordem de compra limitada somente realiza a compra em determinada valor ou mais barato.
-	* Ordem de venda limitada somente realiza a venda em determinado valor ou mais caro.
-	* Podemos identificar que dessa maneira, evitamos facilmente a ocorrência de _slippage_ nas nossas negociações, porém, não podemos garantir o preenchimento da mesma.
-	* Existe a possibilidade de que o preço limite para uma ordem limitada seja alcançado, iniciando assim a ordem, mas caso o preço recue a ordem não tiver sido preenchida, nada irá ser negociado.
-	* Dessa maneira, podem existir situações bastante lucrativas que nao serão aproveitadas devido ao não-preenchimento de uma ordem.
+### 1. Ordem de mercado  
+  * Tipo de ordem mais básico.
+  * Instrui o corretor a comprar/vender a ação no melhor preço disponível.
+  * Geralmente, este tipo de ordem é executada imediatamente.
+  * A vantagem de realizar este tipo de ordem, é de que ela será preechida com certeza.
+  * A desvantagem é que como sempre os melhores preços serão utilizados pra preencher o pedido, pode acontecer de o slippage gerar prejuízos no preenchimento de uma ordem, selecionando preços muito diferentes do exigido na ordem.
+  * Esse tipo de ordem se torna consideravelmente mais vulnerável em mercados de baixa liquidez. Isso pode ser tanto por conta de alta volatilidade quanto como baixa profundidade do mercado.
+## 2. Ordens limitadas
+  * Tipo de ordem que só realiza a negociação caso o preço esteja no limite desejado ou melhor.
+  * Ordem de compra limitada somente realiza a compra em determinada valor ou mais barato.
+  * Ordem de venda limitada somente realiza a venda em determinado valor ou mais caro.
+  * Podemos identificar que dessa maneira, evitamos facilmente a ocorrência de _slippage_ nas nossas negociações, porém, não podemos garantir o preenchimento da mesma.
+  * Existe a possibilidade de que o preço limite para uma ordem limitada seja alcançado, iniciando assim a ordem, mas caso o preço recue a ordem não tiver sido preenchida, nada irá ser negociado.
+  * Dessa maneira, podem existir situações bastante lucrativas que nao serão aproveitadas devido ao não-preenchimento de uma ordem.
 
 ### 3. Ordens de parada
-	* Assim como ordens limitadas, ordens de parada tambem possuem um limite a partir do qual estas iniciam a operar.
-	* Quando o limite de uma ordem de parada é alncaçado, ela se transforma em uma **ordem de mercado** ou numa **ordem limitada**, agindo exatamente como uma ordem do determinado tipo agiria.
-	* Ordens de parada para compra e venda funcionam de maneira distinta em relação a ordens limitadas de compra e venda. Uma ordem de parada para compra é alocada para valores acima do valor atual de mercado, enquanto que ordens de parada para venda são alocadas para valores abaixo do valor atual de mercado. A primeira impede que a compra de ações seja realizada em valores mais caros que o atual, de maneira analoga, a segunda impede a venda de ações à preços mais baratos do que o adquirido.
+  * Assim como ordens limitadas, ordens de parada tambem possuem um limite a partir do qual estas iniciam a operar.
+  * Quando o limite de uma ordem de parada é alncaçado, ela se transforma em uma **ordem de mercado** ou numa **ordem limitada**, agindo exatamente como uma ordem do determinado tipo agiria.
+  * Ordens de parada para compra e venda funcionam de maneira distinta em relação a ordens limitadas de compra e venda. Uma ordem de parada para compra é alocada para valores acima do valor atual de mercado, enquanto que ordens de parada para venda são alocadas para valores abaixo do valor atual de mercado. A primeira impede que a compra de ações seja realizada em valores mais caros que o atual, de maneira analoga, a segunda impede a venda de ações à preços mais baratos do que o adquirido.
 
 ### 4. Ordem de parada dinâmica
-	* Tipo de ordem de parada que atualiza o limite de parada assim que uma ação vai aumentando em valor, garantindo assim os lucros atuais.
-	* Para posições de long, o valor do limite sobe junto com o preço, enquanto que em posições de short, o limite abaixo junto com o preço.
-	* Deve-se configurar qual a variação máxima que o preço/limite pode ter, especificado em preço ou em dolar.
-	* Quanto menor a diferença entre o limite inicial e final, mais fiel àquele preço a negociação será realizada.
+  * Tipo de ordem de parada que atualiza o limite de parada assim que uma ação vai aumentando em valor, garantindo assim os lucros atuais.
+  * Para posições de long, o valor do limite sobe junto com o preço, enquanto que em posições de short, o limite abaixo junto com o preço.
+  * Deve-se configurar qual a variação máxima que o preço/limite pode ter, especificado em preço ou em dolar.
+  * Quanto menor a diferença entre o limite inicial e final, mais fiel àquele preço a negociação será realizada.
 
 ### 5. Parada de perda
-	* Uma das aplicações mais comuns para uma ordem de parada é a de limitar as perdas em uma negociação.
-	* O limite nessas situações se traduz ao limiar do valor que o investidor esta disposto a negociar sua ação.
-	* Para investidores em posição de long, o limite da parada de perda é configurado para abaixo do preço de entrada, evitando perdas em caso de queda do mercado.
-	* Para investidores em posição de short, o limite é configurado acima do valor de compra, evitando perdas com o crescimento do mercado.
+  * Uma das aplicações mais comuns para uma ordem de parada é a de limitar as perdas em uma negociação.
+  * O limite nessas situações se traduz ao limiar do valor que o investidor esta disposto a negociar sua ação.
+  * Para investidores em posição de long, o limite da parada de perda é configurado para abaixo do preço de entrada, evitando perdas em caso de queda do mercado.
+  * Para investidores em posição de short, o limite é configurado acima do valor de compra, evitando perdas com o crescimento do mercado.
 
 ### 6. Ordens condicionais
-	* Ordens condicionais sao tipos de ordens de troca avançadas, aonde uma ordem é cancelada ou enviada somente quando uma condição é satisfeita.
-	* Este tipo de ordem deve ser configurada anteriormente a entrada da troca no mercado.
-	* É considerado uma das formas mais básias de automação de trades.
-	* Os modelos mais comuns dessas ordens sao OCO(ordem canela ordem) e OSO(ordem envia ordem).
+  * Ordens condicionais sao tipos de ordens de troca avançadas, aonde uma ordem é cancelada ou enviada somente quando uma condição é satisfeita.
+  * Este tipo de ordem deve ser configurada anteriormente a entrada da troca no mercado.
+  * É considerado uma das formas mais básias de automação de trades.
+  * Os modelos mais comuns dessas ordens sao OCO(ordem canela ordem) e OSO(ordem envia ordem).
 
 ### 7. Duração da ordem
-	* Além dos tipos de ordens especificados anteriormente, outro parâmetro que pode ser configurado em ordens é a duração que a mesma se mantem em efeito, até ser cancelada (levando em conta que nao foi preenchida ainda);
-	* **Diária**: expira no fim da sessão regular de trocas.
-	* **Good-Til-Canceled(GTC)**: ordem permanece ativa até ser preenchida ou cancelada manualmente. 
-	* **Good-Til-Date(GTD)**: ordem permanece ativa até determinada data, a não ser que tenha sido preenchida ou cancelada anteriormente.
-	* **Immediate-Or-Cancel(IOC)**: Necessita que a ordem (ou parte dela) seja preenchida imediatamente após ser iniciada, caso contrário será cancelada.
-	* **Fill-Or-Kill(FOK)**: Deve ser obrigatoriamente preenchida no momento que é introduzida ao mercado, caso contrário é cancelada.
-	* **All-Or-None(AON)**: Similar ao FOK, ordem será cancelada caso não seja preenchida até o fim da sessão.
-	* **Minute**: Expira assim que uma determinada quantidade de minutos decorreu.
+  * Além dos tipos de ordens especificados anteriormente, outro parâmetro que pode ser configurado em ordens é a duração que a mesma se mantem em efeito, até ser cancelada (levando em conta que nao foi preenchida ainda);
+  * **Diária**: expira no fim da sessão regular de trocas.
+  * **Good-Til-Canceled(GTC)**: ordem permanece ativa até ser preenchida ou cancelada manualmente. 
+  * **Good-Til-Date(GTD)**: ordem permanece ativa até determinada data, a não ser que tenha sido preenchida ou cancelada anteriormente.
+  * **Immediate-Or-Cancel(IOC)**: Necessita que a ordem (ou parte dela) seja preenchida imediatamente após ser iniciada, caso contrário será cancelada.
+  * **Fill-Or-Kill(FOK)**: Deve ser obrigatoriamente preenchida no momento que é introduzida ao mercado, caso contrário é cancelada.
+  * **All-Or-None(AON)**: Similar ao FOK, ordem será cancelada caso não seja preenchida até o fim da sessão.
+  * **Minute**: Expira assim que uma determinada quantidade de minutos decorreu.
 
 ## Desenvolvimento de uma Estratégia de trading
 * Anteriormente ao desenvolvimento do planejamento estratégico, é importante identificar o perfil de trader que você gostaria de ter.
@@ -303,16 +303,16 @@
   * Prática, experiência e utilizar alguns métodos de automação de negociações auxiliam a minimizar estes erros, além de determinar o porque destes terem ocorrido.
   * As explicações mais comuns para estratégias lucrativas falharem sao: 
 #### 1. Preenchimento de ordens
-    * É comum que em estratégias, quando testadas em dados histŕicos, tenham suas ordens preenchidas completamente com o preço escolhido, sem nenhuma diferença de preço (_slippage_).
-    * Essa característica nãio se mantem em ambientes reais, onde ordens não necessariamente vão ser preenchidas, e quando isto ocorre, geralmente o preço não se mantem para toda a ordem.
-    * Esse é um dos primeiros fatores que devem ser levados em consideração quando se tentando identificar o porque de uma estrategia assertiva não estar performando como esperado.
+  * É comum que em estratégias, quando testadas em dados histŕicos, tenham suas ordens preenchidas completamente com o preço escolhido, sem nenhuma diferença de preço (_slippage_).
+  * Essa característica nãio se mantem em ambientes reais, onde ordens não necessariamente vão ser preenchidas, e quando isto ocorre, geralmente o preço não se mantem para toda a ordem.
+  * Esse é um dos primeiros fatores que devem ser levados em consideração quando se tentando identificar o porque de uma estrategia assertiva não estar performando como esperado.
 #### 2. Problemas técnicos
-    * A tecnologia da atualidade facilitou a vida de muitos investidores, inclusive permitindo que estas trabalhem completamente de casa, principalmente quando são investidores individuais.
-    * Apesar disso, estamos completamente vulneráveis quando alguma dessas tecnologias falham. Podemos estar em uma sessão altamente lucrativa realizando negociações excepcionais e ser frustrados quando houver erro de conexão com o servidor, ou quando a propria plataforma de negociações sai do ar, ou simplesmente existe uma manutenção na rede e você perde acesso à internet.
-    * Estes são problemas reais, sendo assim interessantes manter uma lista de contatos e de servicos que possam auxiliar em um momento em que alguma dessas falhas ocorram.
+  * A tecnologia da atualidade facilitou a vida de muitos investidores, inclusive permitindo que estas trabalhem completamente de casa, principalmente quando são investidores individuais.
+  * Apesar disso, estamos completamente vulneráveis quando alguma dessas tecnologias falham. Podemos estar em uma sessão altamente lucrativa realizando negociações excepcionais e ser frustrados quando houver erro de conexão com o servidor, ou quando a propria plataforma de negociações sai do ar, ou simplesmente existe uma manutenção na rede e você perde acesso à internet.
+  * Estes são problemas reais, sendo assim interessantes manter uma lista de contatos e de servicos que possam auxiliar em um momento em que alguma dessas falhas ocorram.
 #### 3. Condições unicas ào mercado
-    * Eventos politicos, economicos e ambientais podem gerar movimentos imensos em mercados, principlamente em curto-prazo.
-    * Além disso, noticias recorrentes tambem alteram o mercado de maneira significativa, como relatorios mensais ou semestrais.
-    * Existem ainda situações tão extremas em que o proprio mercado encerra todas as suas operações para evitar movimentos grandes demais.
-    * Nenhuma estratégia é capaz de prever esses cenários, e sempre produzirá resultados diferentes ao observados em testes.
+  * Eventos politicos, economicos e ambientais podem gerar movimentos imensos em mercados, principlamente em curto-prazo.
+  * Além disso, noticias recorrentes tambem alteram o mercado de maneira significativa, como relatorios mensais ou semestrais.
+  * Existem ainda situações tão extremas em que o proprio mercado encerra todas as suas operações para evitar movimentos grandes demais.
+  * Nenhuma estratégia é capaz de prever esses cenários, e sempre produzirá resultados diferentes ao observados em testes.
 
