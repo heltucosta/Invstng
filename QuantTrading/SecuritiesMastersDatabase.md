@@ -97,3 +97,11 @@
 * Dependeing on whether your system is local or over at a remote server, how you get data to your backtesting system can be time-consuming.
 * It is better to minimize Input/Output processes, performing a selective query before you send the data to the backtesting script.
 * MySQL and PostgreSQL can be used with open-source softwares, meanwhile SQLServer is created to easily integrates with MS .NET, C# and ASP.NET technologies.
+
+## Benefits of a Local Securities Master Database
+1. **Speed**:with the databsae locally, any data application can rapidly access it. When it is online, you would need to perdorm multiple Input/Output (I/O) actions on a latent network.
+2. **Mutiple Sources**: Allows the storage of multiple data sources for the same ticker. Custom error correction code and audit trails to correct data.
+3. **Downtime**: Internet connections can go down, both on your side as well as the vendor's side. A local database followed by a replication system will always be online.
+4. **Meta-data**: Allows us to store fundamental data on a ticker, helping us to minimise data source errors.
+5. **Transactions**: with time, the database can grow to include our own transactional data history. This can help us with data analysis on the data we have created.
+
