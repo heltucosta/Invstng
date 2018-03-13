@@ -97,4 +97,99 @@
   * Offers a summary of the overral picture of the company's quarter/year.
   * Often provides information not mentioned anywhere else on the document (Outstanding leases, detailed information on the state of big debts, summaries of compensation plans, etc).
 
-#### 1.1.1 The Income Statement
+### Qualitative analysis
+* Focus on the fundamental aspects of a company to evaluate its price;
+* Company fundamentals can be anything from revenue, profit, market share, management quality, relationship with other industries, etc.
+* Generally broken down into two perspective: qualitative(measurable factors represented by numerical terms) and quantitative(factors based on the quality or character of the variable);
+
+#### * Intrinsic Value
+* One of the most important terms to keep in mind when performing fundamental analysis of an asset;
+* Sometimes, the stock price does not correctly represents the 'real' company's price, providing the opportunity of profit;
+* This value is called the **intrinsic value**;
+* Intrinsic value assumes that company's that are not trading at their real value will eventually reach that price, not determining time, providing the opportunity for profit;
+* Accurate ans succesfull intrinsic value estimation is not an easy task, and hard to evaluate since the prices can take long times to reach the value estimated;
+
+#### * Criticism of Fundamental Analysis
+* Fundamental analysis is not the only method for estimating a stock's price and health of the investment;
+* Another school of thought developed the **technical analysis** technique, which attempts to perform the same tasks of the fundamental analysis trough some different approaches;
+* The main difference from the two is the view they take on the price of an asset; fundamental analysis assumes this price is wrong and tries to estimate the correct value, while technical analysis believes that statistical patterns can be uncovered by evaliating market activity;
+* These patterns can help a investor predict how the market will behave in the future for an asset, providing the opportunity for profit;
+* Both methodologies have their pros and cons, it is generally more a investor's choice that suits it's investment strategy and profile;
+* **Technical analysts** rather analyze market trends and estimate future prices, meanwhile **fundamental analysts** study the barebones of the asset, quantitative and qualitatively, in order to estimate the correct value an asset should be;
+
+#### Qualitative Factors
+* Here we will elaborate more on which factors are generally taken into consideration when performing a fundamental analysis on a company asset
+* For sure, the quantitative analysis is one of the most crucial and basic analysis that needs to be perfomed, but it just shows the past performance of a company, not how it will probably perform in the future, not painting the whole picture;
+* By definition, qualitative factors are those that are not represented by numbers or figures, allowing them to be compared across time or between different companies without normalizing;
+* Qualitative factors tell you a lot about what the business is and what it's goals are, as well as how it stands against when compared against similar businesses;
+
+##### 1. The Business Model
+* One of the most basic questions an investor can ask;
+* Provides the guiding principles of how a company makes its money;
+* Can be analysed by examining company publised materials or at the preface of its quantitative reports;
+* Can be complicated or simple, not directly related to the size of the company, but to how it operates in order to make its revenue;
+* Knowing what a company does and how it is earning it's money is a crucial step in determining whether it is worth investing or not;
+
+##### 2. Competitive Advantage
+* Simply put, it's a company's ticket to continued success over the long term;
+* All business are trying to obtain a competitive advantage over their competitors and maintain it, making sure they are the most looked for company
+* Some methods of competitive advantage:
+  1. Unique product offering;
+  2. Demographic;
+  3. Positional;
+  4. Better tradeoffs than competitors;
+  5. Activities well-aling with the objective of the company;
+  6. Operational effectiveness;
+
+##### 3. Management
+* One of the most important factors for the health of any organization;
+* Shareholders and boards are really demanding that the management be effective at guiding the company towards financial success;
+* Many believe that even a strong business model can fail when the leaders are not able to guide the execution of the model;
+* For individual traders, it is often difficult to achieve this kind of information, while institutions and professionals have direct contact;
+* Individual investors could try searching and analyzing the personal aspects of the management personel;
+* Many companies provided informations about their executives on ther websites, which can be used to some extent, taking into consideration that this information is biased;
+* Some good behaviors of executives are quarterly calls with the CEO or CFO, as well as frequent Q&A sessions with them;
+* Another excellent approach at acquiting better insights onto the companies executive staff, is the MD&A document;
+* Finally, since these executive tends to change companies during their life, it is a good call to analyze how those companies performed when they were leading them, as well as if they are new to the industry or if the previously acquired experience can be translated into this new company;
+
+##### 4. Corporate Governance
+* Is the set of rules and policies within a company that sets the structure and responsibilities of managers, directors and stakeholders;
+* Companies with strong corporate governance will have robust systems of checks and balances that makes it as hard as it can be for anyone at the company to behave unethically or illegaly;
+* It is important to say here, that a company's corporate governance can chave drastically from one company to the other, but they all have to abid to external rules imposed by the government;
+* Some companies provides reports that quantifies how well they are abiding to their corporate governance, and how they affect their stakeholders;
+* Even when companies don't provide this kind of reports, there are some things to look that can provide insights on that subject:
+  1. Does it provide financial disclosures in a timely fashion?
+  2. Does those documents have good quality and transparency ?
+  3. Does its policies benefits stakeholders ?
+  4. Do stakeholders have voting rights and ways of getting in contact with the directors board?
+  5. How easily can management change in the company?
+  6. How is the board of directors structured ?
+  7. Does the board feature members that are inside and outside of the organization?
+  8. Is the board of directors allowed independence?
+
+##### 5. The Industry
+* All of the factors described above are in respect to the inside movements of the company, however, when performing fundamental analysis, there are some factors outside of the company that are also relevant to the investors;
+* This time we will focus on the industry at which the company belongs to, evaluating these factors for the fundamental analysis;
+* Knowing the industry of a company can help you when comparing how a company performs in relation to the other;
+* It is difficult for example to identify competitive advantages of companies where you don't know their industry;
+* Different industries operates in different manners, so factors that work well for one company/industry may not work as well for other company/industry;
+* Some of the concepts that are taken into consideration when analyzing the industry of a company are: customer base, industry-wide growth, competition, market shares between firms, regulation, length and type of business cycle, etc;
+
+###### 5.1 Customer Base
+* Determining the strength of a customer base depends directly on the industry it belongs;
+* Some industries depends on million of clients of customer base in order to succeed, meanwhile others might only need a small handfull;
+* In general terms, when a big portion of a companies revenue relies dependent of a customer, this is a bad sign. If for any reason at all that customer leaves the company's base of customers, it will greatly impact it's revenue;
+###### 5.2 Industry Growth
+* Is the customer base across the industry likely to grow or shrink ?
+* Generally, new technologies can contribute to changes in the growth of an industry;
+* Investors need to always be mindfull on how new technologies impact each of the industries you're invested at;
+###### 5.3 Competition
+* Are there many companies fighting for the same customers ?
+* Is it a niche field industry?
+* What are the barriers of entry for a new firm ?
+* What are the margins the businesses enjoy ?
+###### 5.4 Regulation
+* Generally set in order to ensure fairness to the public;
+* Can make businesses more or less attractive as potential investment options;
+* Regulations can be in profit margins when few companies dominate the market, or it can be on health issues, for the pharmaceutical industry;
+* Each industry will be impacted by different regulations and each company will react to it in a different manner, and this is where the focus an investor should be, making sure the regulations do not impact greatly on the companies business model, corporate governance and execution of operations;
