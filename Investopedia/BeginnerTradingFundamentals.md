@@ -205,5 +205,5 @@
 * Bright or neon colors can become intolerable over even short periods of time;
 * It is generally adopted that neutral colors (white, black, grey) are used to the background of the chart, as well as for the chart information, even though they should be contrasting the background;
 * For price bars and indicators, the colors should stand out from the background, since this is the most important information we are looking to identify. Green and red are generally used for up and down movements;
-![Charting colors]('charting_color.jpg')
+![Charting colors](charting_color.jpg)
 
