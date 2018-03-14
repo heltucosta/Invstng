@@ -97,7 +97,7 @@
   * Offers a summary of the overral picture of the company's quarter/year.
   * Often provides information not mentioned anywhere else on the document (Outstanding leases, detailed information on the state of big debts, summaries of compensation plans, etc).
 
-### Qualitative analysis
+### 1.2 Qualitative analysis
 * Focus on the fundamental aspects of a company to evaluate its price;
 * Company fundamentals can be anything from revenue, profit, market share, management quality, relationship with other industries, etc.
 * Generally broken down into two perspective: qualitative(measurable factors represented by numerical terms) and quantitative(factors based on the quality or character of the variable);
@@ -193,3 +193,17 @@
 * Can make businesses more or less attractive as potential investment options;
 * Regulations can be in profit margins when few companies dominate the market, or it can be on health issues, for the pharmaceutical industry;
 * Each industry will be impacted by different regulations and each company will react to it in a different manner, and this is where the focus an investor should be, making sure the regulations do not impact greatly on the companies business model, corporate governance and execution of operations;
+
+### 1.3 Charting
+* Viewed as the traders window to the markets;
+* With today's advancement on technologies, traders have a vast amount of market information available on their trading platforms;
+* With the amounts of data available, it is crucial to create and utilize well-designed chart visualization that enhance the pattern recognition of markets instead of hindering them;
+* Even though the charts will only be as good as the data and the tools you use to process them, the overall design of a chart can make a big difference on situational awareness, response time and trading precision;	
+* You could have all the right information to make a profitable investment decision, but if you can't find and interpret this information, the opportunity will be lost;
+#### Color
+* Most platform support multiple color choices;
+* Bright or neon colors can become intolerable over even short periods of time;
+* It is generally adopted that neutral colors (white, black, grey) are used to the background of the chart, as well as for the chart information, even though they should be contrasting the background;
+* For price bars and indicators, the colors should stand out from the background, since this is the most important information we are looking to identify. Green and red are generally used for up and down movements;
+![Charting colors]('charting_color.jpg')
+
