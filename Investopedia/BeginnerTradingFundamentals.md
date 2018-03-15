@@ -194,16 +194,62 @@
 * Regulations can be in profit margins when few companies dominate the market, or it can be on health issues, for the pharmaceutical industry;
 * Each industry will be impacted by different regulations and each company will react to it in a different manner, and this is where the focus an investor should be, making sure the regulations do not impact greatly on the companies business model, corporate governance and execution of operations;
 
-### 1.3 Charting
+## 2 Charting
 * Viewed as the traders window to the markets;
 * With today's advancement on technologies, traders have a vast amount of market information available on their trading platforms;
 * With the amounts of data available, it is crucial to create and utilize well-designed chart visualization that enhance the pattern recognition of markets instead of hindering them;
 * Even though the charts will only be as good as the data and the tools you use to process them, the overall design of a chart can make a big difference on situational awareness, response time and trading precision;	
 * You could have all the right information to make a profitable investment decision, but if you can't find and interpret this information, the opportunity will be lost;
-#### Color
+### Color
 * Most platform support multiple color choices;
 * Bright or neon colors can become intolerable over even short periods of time;
 * It is generally adopted that neutral colors (white, black, grey) are used to the background of the chart, as well as for the chart information, even though they should be contrasting the background;
 * For price bars and indicators, the colors should stand out from the background, since this is the most important information we are looking to identify. Green and red are generally used for up and down movements;
 ![Charting colors](charting_color.jpg)
+* It is pretty commom having multiple charts open, therefore, you should try to keep your colors consistent troughout all of them, the one exception being your order entry chart, where you make your entry and exit decisions;
+### Layout
+* The traders 'workspace' is everything that holds your charts and data to appear on yout trading monitor. For that reason, it is extremely crucial to have multiple monitors, providing you with the ability of monitoring multiple charts simultaneously;
+* It should also be noted that, too much information can be confusing, so is always good to balance the amount of info being analyzed, even when working with multple monitors and well-designed charts;
+* Technical indicators can be applied as overlays on the current chart, or as a sub-chart. Bollinger Bands are usually applied as overalys, meanwhile stochastics, Commodity Channel Index and Relative Strength Index indicators appears as sub-charts;
+* It is really usefull to maintain the color scheme for the indicator constant amongst charts, making it easier to identify;
+### Numbers and text
+* Bold and crisp fonts makes it easier to read the numbers and text on the charts;
+* Information that are not really crucial for trading decisions are usually displayed with smal fonts (Analysis technique such as technical indicators and strategies), on the other hand, crucial information like prices have big fonting;
+* Replicate the desired configuration to all charts utilized;
+### Saving Charts
+* Platforms allow you to save the chart configurations mentioned above so you won't have to edit everytime you start a new analysis;
+* Also usefull to take picture or screeshot of the chart design, since this is a really time consuming task, we should always save time when performing it;
 
+## 3. Leverage and Margin
+* Both go hand-to-hand, on being the consequence of the other;
+* **Margin** is when your broker allows you to enter position that you don't have the funds to, after being approved for a _margin account_;
+* **Leverage** is the amount of buying power that the margin provided you with, this is what allows you to enter positions that are larger than the amount of funds in your account;
+* It is important to mention that those extra funds does not come for free, they will have to be paid back to the broker **with interest**;
+* Leverage is generally expressed as ratio, like 2:1, which doubles your position size;
+* This is generally usefull when traders are confident that an asset is going to have a move but don't have the funds take a position;
+* It can provide bigger profits but also deeper losses;
+* It also allows traders to make more money from small market moves;
+
+## 4. Popular Trading Instruments
+* Since traders leverage small price movements to achieve profit, there are two already covered concepts that play a major role: **liquidity** and **volatility**;
+* Most traders tend to look for instruments(assets) that have good liquidity alongside significant price movements where they can profit from;
+### Liquidity
+* Describes the ability to execute orders of any size quickly and efficiently withou causing a significant change in price;
+* Refers to the ease at which assets can be bought and sold;
+* Can be measured using market _width_(how tight is the bid/ask spread), _Depth_(orders beyond optimal bid/ask), _Immediacy_(How quickly can a large order be executed) and _Resilience_(How long the market take to bounce back from a large order);
+* Good liquidity means high width, high depth, quick fills and high resilience;
+* Liquidity guarantees that orders wil:
+  1. Be filled;
+  2. Filled with minimal slippage;
+  3. Filled without substantially affecting price;
+### Volatility
+* Measures the amount and speed at which prices moves up and down;
+* Provides the opportunity of profit from price movements;
+* Any change in price is profitable; if there's no change in price, it's impossible to make a profit; Investors can take advantage both from rising and lowering changes in prices;
+* Can be evaluated, alongside liquidity, by looking at the following information:
+  1. **Average Daily Trading Volume(ADTV)**: Average number of shares that are traded during a time period; High ADTV means high liquidity;
+  2. **Average Daily Trading Range**: Averagee difference between high and low of prices during time period; Wider range means more volatility, and for traders, means more profit(or losses);
+* Both of the above information can be obtained by utilizing moving averages for volume and prices of high and low;
+
+### 4.1 Commodities
+* 
